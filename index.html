@@ -531,6 +531,8 @@ document.getElementById("clearBtn").addEventListener("click", async () => {
   const batch = db.batch();
   snapshot.docs.forEach(doc => batch.delete(doc.ref));
   await batch.commit();
+  const ADMIN_PASSWORD = "changeme";
+  const ADMIN_PASSWORD = "changeme";
 });
 </script>
 </body>
